@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of yourPISD.
+   
+  yourPISD is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+   
+  yourPISD is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with yourPISD.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/card"
+    android:orientation="horizontal"
+    android:paddingBottom="15dp"
+    android:paddingTop="10dp" >
+
+    <app.sunstreak.yourpisd.view.MyTextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="3dp"
+        android:paddingLeft="3dp"
+        android:paddingTop="4dp"
+        android:text="@string/default_description"
+        android:textSize="20sp"
+        android:textStyle="normal|bold" />
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file is part of yourPISD.
+   
+  yourPISD is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+   
+  yourPISD is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with yourPISD.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="0dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/card_click_blue"
+    android:clickable="true"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp" >
+
+    <app.sunstreak.yourpisd.view.MyTextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:fontFamily="sans-serif-light"
+        android:paddingBottom="3dp"
+        android:paddingLeft="3dp"
+        android:paddingTop="4dp"
+        android:text="@string/default_description"
+        android:textSize="@dimen/six_weeks_summary_class_name_text_size"
+        android:textStyle="normal" />
+
+    <app.sunstreak.yourpisd.view.MyTextView
+        android:id="@+id/grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-light"
+        android:textSize="@dimen/six_weeks_summary_grade_text_size" />
+
+</RelativeLayout>
